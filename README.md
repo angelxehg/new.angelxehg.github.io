@@ -1,75 +1,54 @@
-# Nuxt 3 Minimal Starter
+# angelxehg.github.io
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+My personal portfolio
 
 ## Setup
 
-Make sure to install the dependencies:
+### Pre-requisites
 
-```bash
-# npm
+Required:
+- NodeJS or [NVM](https://github.com/nvm-sh/nvm)
+
+### Local development
+
+Clone repository:
+
+```shell
+git clone git@github.com:angelxehg/new.angelxehg.github.io.git angelxehg.github.io
+cd angelxehg.github.io
+```
+
+Install Node 20 with NVM:
+
+```shell
+nvm install 20.18.0
+nvm use 20.18.0
+```
+
+Install dependencies:
+
+```shell
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start development server:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+### Production deployment
 
-Build the application for production:
+To run a production build:
 
-```bash
-# npm
+```shell
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Preview production build result:
 
-```bash
-# npm
+```shell
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[//]: # (TODO: command to deploy to GH pages)
